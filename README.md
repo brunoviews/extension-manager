@@ -1,12 +1,75 @@
-# React + Vite
+# Extension Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Extension Manager es una aplicación web que permite a los usuarios gestionar extensiones de navegador. Los usuarios pueden activar, desactivar y eliminar extensiones, así como filtrar las extensiones por estado (activas, inactivas o todas).
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Visualización de una lista de extensiones.
+- Activar o desactivar extensiones.
+- Eliminar extensiones de la lista.
+- Filtrar extensiones por estado: Todas, Activas o Inactivas.
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: Biblioteca para construir interfaces de usuario.
+- **Tailwind CSS**: Framework de CSS para estilos rápidos y personalizados.
+- **Vite**: Herramienta de desarrollo para aplicaciones web rápidas.
+
+## Instalación
+
+1. Clona este repositorio:
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd extension-manager
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+## Uso
+
+1. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+2. Abre tu navegador y ve a `http://localhost:3000` para ver la aplicación.
+
+## Estructura del proyecto
+
+```
+extension-manager/
+├── public/                # Archivos públicos
+├── src/                   # Código fuente
+│   ├── assets/            # Recursos como imágenes y fuentes
+│   ├── components/        # Componentes de React
+│   ├── data/              # Datos de ejemplo (Mockdata)
+│   ├── App.css            # Estilos principales
+│   ├── App.jsx            # Componente principal
+│   └── main.jsx           # Punto de entrada
+├── package.json           # Configuración de npm
+├── tailwind.config.js     # Configuración de Tailwind CSS
+├── vite.config.js         # Configuración de Vite
+└── README.md              # Documentación del proyecto
+```
+
+## Capturas de pantalla
+
+### Vista de escritorio
+
+![Vista de escritorio](./design/desktop-design-light.jpg)
+
+### Vista móvil
+
+![Vista móvil](./design/mobile-design-light.jpg)
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir, por favor abre un issue o envía un pull request.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
