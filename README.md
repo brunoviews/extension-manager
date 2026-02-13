@@ -60,16 +60,11 @@ extension-manager/
 
 ### Vista de escritorio
 
-![Vista de escritorio](./design/desktop-design-light.jpg)
+<img width="1332" height="703" alt="image" src="https://github.com/user-attachments/assets/526f7407-0c08-4d54-a140-513e30c1e645" />
 
-### Vista móvil
-
-![Vista móvil](./design/mobile-design-light.jpg)
 
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si deseas contribuir, por favor abre un issue o envía un pull request.
 
-## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
